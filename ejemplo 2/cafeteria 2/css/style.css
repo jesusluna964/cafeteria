@@ -23,6 +23,8 @@ body {
     font-size: 15px;
     font-family: 'Athiti', sans-serif;
     line-height: 1.80857;
+
+   face */
 }
 
 
@@ -226,7 +228,7 @@ button:focus{
 	font-size: 40px;
 }
 .slides-navigation a:hover {
-	background: #010101;
+	background: #bda07a;
 }
 .cover-slides .container{
 	height: 100%;
@@ -909,7 +911,7 @@ button:focus{
 	margin-top: 20px;
 }
 .btn.btn-common{
-	color: #d0e4bb;
+	color: #000000;
 	background-color: transparent;
 	background-image: none;
 	border-color: #cfa671;
