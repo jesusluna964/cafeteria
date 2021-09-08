@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><!-- Basic -->
+<html lang="es"><!-- Basic -->
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
@@ -25,6 +25,15 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+	<style type=text/css>
+	body{
+		top: 0 !important;
+	}
+	.goog-te-banner-frame{
+		display: none;
+	}
+
+	</style>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -65,10 +74,21 @@
 							</div>
 						</li> -->
 						<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+						<!-- traductor -->
+						<li><a href="#"><div id="google_translate_element"></div></a></li>
+						<a href="http://free-website-translation.com/?es" id="ftwtranslation_button" hreflang="es" title="" style="border:0;"><img src="http://free-website-translation.com/img/fwt_button_en.gif" id="ftwtranslation_image" alt="Herramienta de traducciÃ³n gratuita de pÃ¡ginas web" style="border:0;"/></a><br /><a href="http://free-website-translation.com/?es" style="font-size:10px;font-family:verdana;color:#000;margin:2px 4px;margin-top:0;"></a><script type="text/javascript" src="http://free-website-translation.com/scripts/fwt.js" /></script>
+						<!-- traductor -->
 					</ul>
 				</div>
 			</div>
 		</nav>
+		<!-- traductor -->
+		<script type="text/javascript">
+		function googleTranslateElementInit(){
+			new google.translate.TranslateElement({pageLanguage: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE},'google_translate_element');
+		}
+		</script>
+		<!-- traductor -->
 	</header>
 	<!-- End header -->
 	
@@ -476,9 +496,9 @@
 				<div class="col-md-4">
 					<i class="fa fa-volume-control-phone"></i>
 					<div class="overflow-hidden">
-						<h4>Phone</h4>
+						<h4>Teléfono</h4>
 						<p class="lead">
-							+01 123-456-4590
+							81 1016 2270
 						</p>
 					</div>
 				</div>
@@ -486,17 +506,16 @@
 					<i class="fa fa-envelope"></i>
 					<div class="overflow-hidden">
 						<h4>Email</h4>
-						<p class="lead">
-							yourmail@gmail.com
+						<p class="lead">company@mycoffeeshopmexico.com
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<i class="fa fa-map-marker"></i>
 					<div class="overflow-hidden">
-						<h4>Location</h4>
+						<h4>Ubicación</h4>
 						<p class="lead">
-							800, Lorem Street, US
+							Zona centro, Xalapa, México 
 						</p>
 					</div>
 				</div>
@@ -510,38 +529,38 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
-					<h3>About Us</h3>
-					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui, at ornare turpis ultrices sit amet. Nulla cursus lorem ut nisi porta, ac eleifend arcu ultrices.</p>
+					<h3>Nosotros</h3>
+					<p>Trabajamos felizmente y en armonía porque amamos lo que hacemos y amamos más cada uno de Nuestros Clientes, se lleve a su casa y negocio un café de altura y de calidad superior.</p>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<h3>Opening hours</h3>
-					<p><span class="text-color">Monday: </span>Closed</p>
-					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+					<h3>Horario de atención</h3>
+					<!-- <p><span class="text-color">Monday: </span>Closed</p> -->
+					<p><span class="text-color">Lunes-Domingo :</span> 8:30am - 8:00PM</p>
+					<!-- <p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p> -->
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<h3>Contact information</h3>
-					<p class="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
-					<p class="lead"><a href="#">+01 2000 800 9999</a></p>
-					<p><a href="#"> info@admin.com</a></p>
+					<h3>Contacto</h3>
+					<p class="lead">Jose Maria Mata Num 4 - A Esquina Zamora, Zona Centro, Xalapa, México, 91000</p>
+					<p class="lead"><a href="#">81 1016 2270</a></p>
+					<!-- <p><a href="#"> company@mycoffeeshopmexico.com</a></p> -->
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<h3>Subscribe</h3>
+					<h3>SUSCRIBETE</h3>
 					<div class="subscribe_form">
 						<form class="subscribe_form">
-							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
-							<button type="submit" class="submit">SUBSCRIBE</button>
+							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email..." type="email">
+							<button type="submit" class="submit">SUSCRIBETE</button>
 							<div class="clearfix"></div>
 						</form>
 					</div>
-					<ul class="list-inline f-social">
+					<!-- <ul class="list-inline f-social">
 						<li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100064160854397"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
 		</div>
@@ -574,5 +593,6 @@
 	<script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
+	<script type="textjavascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
